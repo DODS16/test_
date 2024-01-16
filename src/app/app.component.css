@@ -1,0 +1,118 @@
+body {
+  background-image: url("../assets/images/background.jpg");
+  background-size: cover;
+  height: 90vh;
+}
+
+h1 {
+  color: white;
+  font-size: 10vh;
+}
+
+h2 {
+  color: white;
+  font-size: 2vh;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h3 {
+  color: white;
+  font-size: 1.4vh;
+  font-family: monospace;
+  margin-top: -8%;
+  margin-bottom: 5%;
+  width: 80%;
+}
+
+.header {
+  margin-top: 4.7%;
+  margin-left: 11%;
+}
+
+.header_button {
+  margin-top: -3%;
+  margin-left: 50%;
+  display: flex;
+}
+
+.header_button h2 {
+  margin-right: 7%;
+}
+
+.home_button {
+  margin-top: 0;
+  color: orangered;
+  font-size: 4vh;
+  border-bottom: 1px solid orangered;
+}
+
+.main_text {
+  width: 25%;
+  margin-left: 7.5%;
+}
+
+.sign_up_button {
+  color: orange;
+  font-size: 1.5vh;
+  font-weight: bold;
+  background-color: white;
+  width: 20%;
+  height: 4vh;
+  border-radius: 20px;
+  border: none;
+  margin-right: 5%;
+}
+
+.play_button {
+  color: white;
+  background: linear-gradient(to bottom, orange, orangered);
+  font-size: 1.7vh;
+  font-weight: bold;
+  background-color: white;
+  width: 20%;
+  height: 4vh;
+  border-radius: 20px;
+  border: none;
+}
+
+.image_section {
+  width: 40%;
+  height: 50vh;
+  margin-left: 55%;
+  margin-top: -25%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.frame {
+  margin-top: -13.7%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.frame_text {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10.7%;
+  margin-left: 20.5%;
+  color: black;
+  font-size: 13px;
+  width: 40%;
+  font-weight: bold;
+}
+
+.social_media {
+  margin-right: 3.5%;
+  float: right;
+  width: 2%;
+  margin-top: -5%;
+}
+
+.follow {
+  color: white;
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  transform: translateX(-60%) translateY(-10%);
+}
