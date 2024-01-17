@@ -140,6 +140,7 @@ h3 {
   width: 100%;
   height: auto;
   max-width: 100%;
+  max-height: 160%;
 }
 
 @media only screen and (max-width: 1) {
@@ -154,15 +155,14 @@ h3 {
   }
 }
 
-@media only screen and (max-height: 800px) and (min-width: 800px) {
+@media only screen and (max-height: 1) and (min-width: 800px) {
   .main_image {
     width: 95%;
-    height: 160%;
-    margin-top: 50%;
+    height: auto;
+    margin-top: 200%;
   }
   .image_section {
     width: 40%;
-    /* margin-left: 10%; */
   }
 }
 
